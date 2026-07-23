@@ -1,23 +1,68 @@
 aid: airborne-entertainment
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/airborne-entertainment.png
 name: Airborne Entertainment
-description: Airborne Entertainment is a company surfaced as a portfolio company of insight-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Airborne Entertainment was a Montreal, Quebec mobile entertainment company
+  founded in 2000 that published and distributed premium mobile content and applications
+  for carrier decks and early smartphones, including games, ringtones, ring-back tones,
+  images, video and informational content, often under licensed consumer brands. The
+  company raised a $22M round in July 2004 with participation from Insight Partners
+  and Verizon, sold a majority stake to Japan''s CYBIRD Co., Ltd. in 2005, was taken
+  back by management in a 2008 buy-out, operated afterwards as Airborne Mobile, and
+  was acquired by Bandsintown in October 2010. It no longer operates as an independent
+  company: both airborneentertainment.com and airbornemobile.com are parked domain-sale
+  listings, and the company never published a public developer portal, API, or SDK
+  surface. This profile is retained as an API Evangelist network history record.'
 url: https://raw.githubusercontent.com/api-evangelist/airborne-entertainment/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - insight-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: defunct-no-api-surface
+x-status: defunct
+x-status-detail: Acquired by Bandsintown in October 2010; no live website or developer
+  surface as of 2026-07-19.
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Mobile
+- Entertainment
+- Mobile Content
+- Gaming
+- Media
+- Canada
+- Defunct
 apis: []
+common:
+- type: Reference
+  url: https://www.insightpartners.com/portfolio/airborne-entertainment/
+- type: Reference
+  url: https://www.crunchbase.com/organization/airborne-entertainment
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
+  note: 'Company is defunct (acquired by Bandsintown 2010). Primary domains
+    airborneentertainment.com and airbornemobile.com both resolve to HugeDomains
+    parking pages (HTTP 200, redirect to hugedomains.com). No API, developer portal,
+    docs, SDK, or event surface exists to search, probe, or derive from, so no
+    artifacts were written.'
