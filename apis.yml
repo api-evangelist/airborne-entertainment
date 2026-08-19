@@ -33,7 +33,7 @@ x-tier-reason: defunct-no-api-surface
 x-status: defunct
 x-status-detail: Acquired by Bandsintown in October 2010; no live website or developer
   surface as of 2026-07-19.
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-19'
 tags:
